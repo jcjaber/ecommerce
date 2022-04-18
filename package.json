@@ -1,11 +1,17 @@
 {
   "name": "e-commerce",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "author": {
+    "name": "José Cássio Jaber",
+    "email": "jcjaber@gmail.com",
+    "url": "https://github.com/jcjaber"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "export": "next export",
     "lint": "next lint"
   },
   "dependencies": {
