@@ -1,4 +1,4 @@
-import { commonActionTypes } from "./common.types";
+import { commonActionTypes } from './common.types';
 
 const setLoading = (loading: boolean) => {
   return {

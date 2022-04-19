@@ -1,5 +1,5 @@
 export enum commonActionTypes {
-  SET_LOADING = "SET_LOADING"
+  SET_LOADING = 'SET_LOADING'
 }
 
 export type Image = {

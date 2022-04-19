@@ -1,7 +1,7 @@
-import { Image } from "../common/common.types";
+import { Image } from '../common/common.types';
 
 export enum ProductsActionTypes {
-  SET_PRODUCTS = "SET_PRODUCTS"
+  SET_PRODUCTS = 'SET_PRODUCTS'
 }
 
 export type Product = {
@@ -10,7 +10,7 @@ export type Product = {
   description: string;
   image: Image;
   price: number;
-  feature: boolean;
+  featured: boolean;
 }
 
 export type ProductsAction = {

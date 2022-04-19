@@ -1,4 +1,4 @@
-import { Product, ProductsActionTypes } from "./products.types";
+import { Product, ProductsActionTypes } from './products.types';
 
 const setProducts = (products: Array<Product>) => {
   return {

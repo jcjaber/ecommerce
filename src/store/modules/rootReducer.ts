@@ -1,6 +1,6 @@
-import { combineReducers } from "redux";
-import { commonReducer } from "./common";
-import { ProductsReducer } from "./products";
+import { combineReducers } from 'redux';
+import { commonReducer } from './common';
+import { ProductsReducer } from './products';
 
 const reducers = {
   common: commonReducer,
